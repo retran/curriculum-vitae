@@ -5,7 +5,7 @@ ASSETS = ./assets
 SRC = ./src/common
 
 MAIN = $(SRC)/main.tex
-BUNDLE = andrew_vasilyev_software_developer_cv
+BUNDLE = andrew_vasilyev_software_developer_cv_$(shell date +'%y%m%d')
 
 all:
 	mkdir -p $(BIN)
